@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucida Grande", sans-serif;
+    background-color: gainsboro;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    color: rebeccapurple;
+    text-align: center;
+  }
+  
+  table {
+    border: 2px solid darkorchid;
+    width: 650px;
+    margin: 0 auto;
+  }
+  
+  thead {
+    background-color: plum;
+  }
+  
+  td {
+    border-top: 1px solid darkorchid;
+  }
+  
+  .code {
+    font-family: monospace;
+    background-color: beige;
+  }
+  nav {
+    display: inline-flex;
+  }
+  
+  h1 {
+    display: inline;
+    background-color: dimgrey;
+    color: lightgrey;
+    padding: 1em;
+  }
+  h2 {
+    background-color: slategrey;
+    color: darkslategrey;
+    padding: 1em;
+  }
+  h3 {
+    background-color: darkslategrey;
+    color: lightslategrey;
+    padding: 1em;
+  }
+  /*check if i could move them a little to the center of the page*/
+  
+  /* #check pre{
+    margin-left: 30px;
+  } */
+  pre {
+    font-family: "Lucida Sans Typewriter", monospace;
+    background-color: #1f2f2f;
+    color: greenyellow;
+  }
+  ul li {
+    display: inline-flex;
+    background-color: lightgrey;
+    padding: 2em;
+  }
+  ul li:hover {
+    background-color: whitesmoke;
+  }
+  ol li {
+    background-color: #223434;
+    color: antiquewhite;
+    padding: 0 1em 0;
+  }
+  
+  section#HTML pre {
+    line-height: 1.5em;
+    padding: 2em;
+  }
+  section#git pre,
+  section#command pre,
+  section#JS pre,
+  section#DOM pre,
+  section#CSS pre {
+    display: inline-flex;
+    padding: 0.75em 1.25em;
+  }
+  section#git p,
+  section#command p,
+  section#JS p,
+  section#DOM p,
+  section#CSS p {
+    display: inline-flex;
+    background-color: dimgrey;
+    color: #dfefef;
+    padding: 0.75em 1.25em;
+  }
+  section#git a,
+  section#command a,
+  section#JS a,
+  section#DOM a,
+  section#CSS a {
+    display: inline-flex;
+    background-color: lightgrey;
+    padding: 0.75em;
+  }
+  section#git a:hover,
+  section#command a:hover,
+  section#JS a:hover,
+  section#DOM a:hover,
+  section#CSS a:hover {
+    display: inline-flex;
+    background-color: whitesmoke;
+  }
+  footer h6 {
+    text-align: right;
+    background-color: dimgrey;
+    color: lightgrey;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
